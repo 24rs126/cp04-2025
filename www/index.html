@@ -155,6 +155,8 @@
     var period= 0;
     var rest = 0; 
     var etime =0;
+    var colorChangeTime = -1;
+
 
 
     
@@ -215,11 +217,18 @@
             $("#time").html("経過時間: " + etime);
             $("#remain").html("残り時間: " + rest);
             analog(rest);
+
+            if (etime != colorChangeTime) {
+                colorChangeTime = etime;
+                document.body.style.backgroundColor = "rgb(154, 255, 154)";
+            }else{
+                colorChangeTime = etime;
+                document.body.style.backgroundColor = "rgb(45, 223, 104)";
+            }
             if (rest <= 0){
                 active = false;
                 alarm();
             }
-            
 
         }
     } 
