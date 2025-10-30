@@ -72,15 +72,15 @@
         font-size: 40px;
         position:absolute; top:500px; left:2%; width:95%; height:60px; 
     }
-    
+
     #minute {
-        font-size: 30px;
-        position:absolute; top:450px; left:60px; width:80px; height:40px;   
+        font-size: 50px;
+        position:absolute; top:600px; left:20px; width:150px; height:100px;   
     }
     
     #second {
-        font-size: 30px;
-        position:absolute; top:450px; left:190px; width:80px; height:40px;   
+        font-size: 50px;
+        position:absolute; top:600px; left:210px; width:150px; height:100px;   
     }
     
     input[type=number] {text-align: right;}
