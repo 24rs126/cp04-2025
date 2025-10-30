@@ -63,16 +63,19 @@
     }
     
     #btnB {
+        background-color:red;
+        color:white;
         font-size: 40px;
         position:absolute; top:440px; left:2%; width:95%; height:60px; 
     }
 
     #btnC {
-        
+        background-color:blue;
+        color:white;
         font-size: 40px;
         position:absolute; top:500px; left:2%; width:95%; height:60px; 
     }
-
+    
     #minute {
         font-size: 50px;
         position:absolute; top:600px; left:20px; width:150px; height:100px;   
