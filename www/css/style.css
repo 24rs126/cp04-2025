@@ -9,7 +9,7 @@
         font-size: 20px;
         text-align: left;
         position:absolute; top:210px; 
-        left:10px; right:10px;
+        left:10px; right:100px;
     }
     
     #secondStr {
@@ -58,19 +58,19 @@
     #btnA {
         background-color:yellow;
         color:green;
-        font-size: 20px;
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        font-size: 40px;
+        position:absolute; top:380px; left:2%; width:95%; height:60px; 
     }
     
     #btnB {
-        font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        font-size: 40px;
+        position:absolute; top:440px; left:2%; width:95%; height:60px; 
     }
 
     #btnC {
         
-        font-size: 20px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        font-size: 40px;
+        position:absolute; top:500px; left:2%; width:95%; height:60px; 
     }
     
     #minute {
